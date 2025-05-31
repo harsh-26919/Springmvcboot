@@ -1,14 +1,21 @@
 package com.harsh.springmvcboot.Model;
 
-public class Alien
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Aliens
 {
+    @Id
     private int aid;
     private String aname;
 
-    public Alien(String aname, int aid) {
-        this.aname = aname;
-        this.aid = aid;
-    }
+    public Aliens(){}
+
+//    public Aliens(String aname, int aid) {
+//        this.aname = aname;
+//        this.aid = aid;
+//    }
 
     public int getAid() {
         return aid;

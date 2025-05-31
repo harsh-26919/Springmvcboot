@@ -7,9 +7,19 @@ pageEncoding="UTF-8" %>
 </head>
 <body>
 <h1>Hello World</h1>
-<form action="add">
-    Enter the 1st number: <input type="text" name="num1"><br>
-    Enter the 2nd number: <input type="text" name="num2"><br>
+<form action="addAlien" method="post">
+    Enter your id: <input type="text" name="aid"><br>
+    Enter your name: <input type="text" name="aname"><br>
+    <input type="submit">
+</form>
+<hr>
+<form action="getAlien" method="get">
+    Enter your id: <input type="text" name="aid"><br>
+    <input type="submit">
+</form>
+<hr>
+<form action="getAlienByName" method="get">
+    Enter your Aname: <input type="text" name="aname"><br>
     <input type="submit">
 </form>
 </body>

@@ -7,7 +7,10 @@
 </head>
 <body>
 <h1>Hello World</h1>
-<h2>Result is : ${result}</h2>
+<h2>Result is : ${a1}</h2>
+<h2>Welcome Back ${name}</h2>
+<h2>The Id which you want to get is ${a2}</h2>
+<h2>The names which you were Searching are : ${a3}</h2>
 </form>
 </body>
 </html>
